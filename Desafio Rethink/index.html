@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Detran - Cadastro</title>
+</head>
+
+<body>
+    <main>
+        <div class="campos-cadastro">
+            <form method="post">
+                <h2 align="center">Seja bem vindo(a)!</h2><br>
+
+                <div class="inputs">
+                    <div class="coluna1">
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" name="nome" id="nome"><br><br>
+                        <label for="profissao">Profissão:</label><br>
+                        <input type="text" name="profissao" id="profissao"><br><br>
+                        <label for="telefone">Telefone:</label><br>
+                        <input type="text" id="telefone"><br><br><br>
+                    </div>
+
+                    <div class="coluna2">
+                        <label for="idade">Idade:</label><br>
+                        <input type="text" name="idade" id="idade"><br><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" id="email"><br><br>
+                        <label for="data">Data de preenchimento:</label><br>
+                        <input type="date" name="data" id="data"><br><br>
+                    </div>
+                </div>
+
+                <button type="button" id="btnSubmit" onclick="AdicionarCadastro()" value="Cadastrar"
+                    align="center">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

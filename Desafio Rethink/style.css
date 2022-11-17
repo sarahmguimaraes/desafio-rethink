@@ -1,0 +1,75 @@
+body {
+    background-image: url(imagens/blue-gradient-background-6517.jpeg);
+}
+
+main {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campos-cadastro {
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    background-color: #fff;
+    width: 40%;
+    padding: 40px 40px;
+    border-radius: 20px;
+    box-shadow: rgb(8, 1, 39) 4px 4px 8px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coluna1,
+.coluna2 {
+    flex: 1 0 0;
+    padding: 10px 5px;
+}
+
+
+input[type="text"],
+input[type="email"] {
+    width: 90%;
+    height: 22px;
+    border: 1px solid rgb(2, 0, 129);
+    outline: none;
+}
+
+input[type="date"] {
+    width: 91%;
+    height: 24px;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid rgb(2, 0, 129);
+    outline: none;
+}
+
+#btnSubmit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(2, 0, 129);
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+
+}
+
+#btnSubmit:hover {
+    background-color: #fff;
+    border: 1px solid rgb(2, 0, 129);
+    color: rgb(2, 0, 129);
+    transition: background.5s;
+}
+
+#idade {
+    width: 30%;
+}
